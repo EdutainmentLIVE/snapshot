@@ -1,14 +1,19 @@
 resolver: nightly-2020-10-13
 
 packages:
-  - AesonBson-0.4.0
-  - csv-conduit-0.7.1.0
-  - esqueleto-3.3.4.0
-  - HDBC-postgresql-2.3.2.7
-  - HPDF-1.5.1
-  - prolude-0.0.0.2
-  - servant-serf-0.0.3
-  - servant-server-0.18
+  - AesonBson-0.4.0                                                             
+  - csv-conduit-0.7.1.0                                                         
+  - direct-daemonize-3.1                                                        
+  - esqueleto-3.3.4.0                                                           
+  - HDBC-postgresql-2.3.2.7                                                     
+  - HPDF-1.5.1                                                                  
+  - odd-jobs-0.2.2                                                              
+  - prolude-0.0.0.2                                                             
+  - servant-lucid-0.9.0.2                                                       
+  - servant-serf-0.0.3                                                          
+  - servant-server-0.18                                                         
+  - servant-static-th-0.2.4.0                                                   
+  - timing-convenience-0.1                                                      
 
   # https://github.com/brendanhay/amazonka/pull/572
   - git: https://github.com/brendanhay/amazonka
