@@ -21,6 +21,10 @@ packages:
     subdirs:
       - amazonka
 
+  # https://github.com/haskell-hvr/base-noprelude/pull/12
+  - git: https://github.com/aschmois/base-noprelude
+    commit: ae0653af5285323c400f23e599f762922187d341
+
   # https://github.com/hdbc/convertible/pull/15
   - git: https://github.com/codygman/convertible
     commit: 9e4849e143458aa3175e71bc2a8a29502272eb88
