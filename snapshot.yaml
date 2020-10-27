@@ -1,19 +1,19 @@
-resolver: nightly-2020-10-23
+resolver: nightly-2020-10-26
 
 packages:
-  - AesonBson-0.4.0                                                             
-  - csv-conduit-0.7.1.0                                                         
-  - direct-daemonize-3.1                                                        
-  - esqueleto-3.3.4.0                                                           
-  - HDBC-postgresql-2.3.2.7                                                     
-  - HPDF-1.5.1                                                                  
-  - odd-jobs-0.2.2                                                              
-  - prolude-0.0.0.4                                                             
-  - servant-lucid-0.9.0.2                                                       
-  - servant-serf-0.0.3                                                          
-  - servant-server-0.18                                                         
-  - servant-static-th-0.2.4.0                                                   
-  - timing-convenience-0.1                                                      
+  - AesonBson-0.4.0
+  - csv-conduit-0.7.1.0
+  - direct-daemonize-3.1
+  - esqueleto-3.3.4.0
+  - HDBC-postgresql-2.3.2.7
+  - HPDF-1.5.1
+  - odd-jobs-0.2.2
+  - prolude-0.0.0.4
+  - servant-lucid-0.9.0.2
+  - servant-serf-0.0.3
+  - servant-server-0.18
+  - servant-static-th-0.2.4.0
+  - timing-convenience-0.1
 
   # https://github.com/brendanhay/amazonka/pull/572
   - git: https://github.com/brendanhay/amazonka
@@ -53,3 +53,7 @@ packages:
     subdirs:
       - servant-swagger-ui-core
       - servant-swagger-ui
+
+  # https://github.com/EdutainmentLIVE/recurly
+  - git: https://github.com/EdutainmentLIVE/recurly
+    commit: beb902cc9956ebaf7657a9d3c4a7f4312302eb1e
