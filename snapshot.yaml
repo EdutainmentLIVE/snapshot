@@ -1,4 +1,4 @@
-resolver: nightly-2020-10-26
+resolver: nightly-2020-11-01
 
 packages:
   - AesonBson-0.4.0
@@ -8,7 +8,7 @@ packages:
   - HDBC-postgresql-2.3.2.7
   - HPDF-1.5.1
   - odd-jobs-0.2.2
-  - prolude-0.0.0.4
+  - prolude-0.0.0.5
   - servant-lucid-0.9.0.2
   - servant-serf-0.0.3
   - servant-server-0.18
