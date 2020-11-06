@@ -9,6 +9,7 @@ packages:
   - HPDF-1.5.1
   - odd-jobs-0.2.2
   - prolude-0.0.0.6
+  - servant-blaze-0.9.1
   - servant-lucid-0.9.0.2
   - servant-serf-0.0.3
   - servant-server-0.18
@@ -38,10 +39,6 @@ packages:
     commit: 71de35824f3592efb6cdb6cfd3fe29bb119008c0
     subdirs:
       - persistent-mongoDB
-
-  # https://github.com/haskell-servant/servant-blaze/pull/19
-  - git: https://github.com/aschmois/servant-blaze
-    commit: b0d5d16e7bce3c22ea3ebce8ed29f28fd1e4a64a
 
   # https://github.com/haskell-servant/servant-swagger/pull/125
   - git: https://github.com/haskell-servant/servant-swagger
