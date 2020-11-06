@@ -13,6 +13,8 @@ packages:
   - servant-serf-0.0.3
   - servant-server-0.18
   - servant-static-th-0.2.4.0
+  - servant-swagger-ui-0.3.4.3.36.1
+  - servant-swagger-ui-core-0.3.3
   - timing-convenience-0.1
 
   # https://github.com/brendanhay/amazonka/pull/572
@@ -46,13 +48,6 @@ packages:
   # https://github.com/haskell-servant/servant-swagger/pull/125
   - git: https://github.com/haskell-servant/servant-swagger
     commit: 2c0bf4759a96e848130f6a16fb45d6525bf06522
-
-  # https://github.com/haskell-servant/servant-swagger-ui/pull/78
-  - git: https://github.com/aschmois/servant-swagger-ui
-    commit: 8c697a4ddb4d128e2c1fb5795ee1ee1892ff250a
-    subdirs:
-      - servant-swagger-ui-core
-      - servant-swagger-ui
 
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
