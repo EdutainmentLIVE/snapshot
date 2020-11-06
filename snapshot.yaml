@@ -10,6 +10,7 @@ packages:
   - odd-jobs-0.2.2
   - persistent-mongoDB-2.10.0.1
   - prolude-0.0.0.6
+  - servant-blaze-0.9.1
   - servant-lucid-0.9.0.2
   - servant-serf-0.0.3
   - servant-server-0.18
@@ -33,10 +34,6 @@ packages:
   # https://github.com/flipstone/orville/pull/55
   - git: https://github.com/EdutainmentLIVE/orville
     commit: 8a2432891e96a547777b67a67135e235a1dce80c
-
-  # https://github.com/haskell-servant/servant-blaze/pull/19
-  - git: https://github.com/aschmois/servant-blaze
-    commit: b0d5d16e7bce3c22ea3ebce8ed29f28fd1e4a64a
 
   # https://github.com/haskell-servant/servant-swagger/pull/125
   - git: https://github.com/haskell-servant/servant-swagger
