@@ -8,7 +8,7 @@ packages:
   - HDBC-postgresql-2.3.2.7
   - HPDF-1.5.1
   - odd-jobs-0.2.2
-  - persistent-mongoDB-2.11.0.0
+  - persistent-mongoDB-2.10.0.1
   - prolude-0.0.0.6
   - servant-lucid-0.9.0.2
   - servant-serf-0.0.3
