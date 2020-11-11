@@ -1,4 +1,4 @@
-resolver: nightly-2020-11-10
+resolver: nightly-2020-11-11
 
 packages:
   - AesonBson-0.4.0
@@ -10,13 +10,10 @@ packages:
   - odd-jobs-0.2.2
   - persistent-mongoDB-2.10.0.1
   - prolude-0.0.0.7
-  - servant-blaze-0.9.1
   - servant-lucid-0.9.0.2
   - servant-serf-0.0.3
   - servant-server-0.18
   - servant-static-th-0.2.4.0
-  - servant-swagger-ui-0.3.4.3.36.1
-  - servant-swagger-ui-core-0.3.3
   - timing-convenience-0.1
 
   # https://github.com/brendanhay/amazonka/pull/572
