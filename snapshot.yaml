@@ -40,4 +40,4 @@ packages:
 
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
-    commit: beb902cc9956ebaf7657a9d3c4a7f4312302eb1e
+    commit: 821d812a2e3158ac0e38ae466e0dcd78f1f1ad9a
