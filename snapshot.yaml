@@ -1,4 +1,4 @@
-resolver: nightly-2020-11-16
+resolver: nightly-2020-11-18
 
 packages:
   - AesonBson-0.4.0
@@ -9,7 +9,7 @@ packages:
   - HPDF-1.5.1
   - odd-jobs-0.2.2
   - persistent-mongoDB-2.10.0.1
-  - prolude-0.0.0.8
+  - prolude-0.0.0.9
   - servant-lucid-0.9.0.2
   - servant-serf-0.0.3
   - servant-server-0.18
