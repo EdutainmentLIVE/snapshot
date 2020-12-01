@@ -2,10 +2,10 @@ resolver: nightly-2020-11-28
 
 packages:
   - AesonBson-0.4.0
-  - csv-conduit-0.7.1.0
+  - csv-conduit-0.7.2.0
   - direct-daemonize-3.1
   - esqueleto-3.4.0.1
-  - HDBC-postgresql-2.3.2.7
+  - HDBC-postgresql-2.4.0.0
   - HPDF-1.5.1
   - odd-jobs-0.2.2
   - prolude-0.0.0.11
@@ -34,11 +34,11 @@ packages:
 
   # https://github.com/haskell-servant/servant-swagger/pull/125
   - git: https://github.com/haskell-servant/servant-swagger
-    commit: 2c0bf4759a96e848130f6a16fb45d6525bf06522
+    commit: 1909e44e965dca24cb1f5cee4b08c0781dfdbff6
 
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
-    commit: 821d812a2e3158ac0e38ae466e0dcd78f1f1ad9a
+    commit: caafdaf62918d3d41dc57f1b547507265e1ed002
 
   # https://github.com/yesodweb/persistent
   - git: https://github.com/yesodweb/persistent
