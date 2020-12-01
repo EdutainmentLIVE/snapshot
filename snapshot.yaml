@@ -4,10 +4,13 @@ packages:
   - AesonBson-0.4.0
   - csv-conduit-0.7.2.0
   - direct-daemonize-3.1
-  - esqueleto-3.4.0.1
   - HDBC-postgresql-2.4.0.0
   - HPDF-1.5.1
   - odd-jobs-0.2.2
+  - persistent-2.11.0.1
+  - persistent-template-2.9.1.0
+  - persistent-mongoDB-2.11.0.0
+  - persistent-postgresql-2.11.0.0
   - prolude-0.0.0.11
   - servant-lucid-0.9.0.2
   - servant-serf-0.0.3
@@ -39,12 +42,3 @@ packages:
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
     commit: caafdaf62918d3d41dc57f1b547507265e1ed002
-
-  # https://github.com/yesodweb/persistent
-  - git: https://github.com/yesodweb/persistent
-    commit: 0e2dc880d3b1f974a955293540b9891acba13551
-    subdirs:
-      - persistent
-      - persistent-template
-      - persistent-mongoDB
-      - persistent-postgresql
