@@ -42,3 +42,7 @@ packages:
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
     commit: caafdaf62918d3d41dc57f1b547507265e1ed002
+
+  # https://github.com/freckle/graphula/pull/51
+  - git: https://github.com/EdutainmentLIVE/graphula.git
+    commit: 6ccd36fc5b27ffcbee3ccffe9900b046c3219c0d
