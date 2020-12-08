@@ -45,4 +45,4 @@ packages:
 
   # https://github.com/freckle/graphula/pull/51
   - git: https://github.com/EdutainmentLIVE/graphula.git
-    commit: fa797aad56396dbe97e1383eea65e7106bda3a63
+    commit: 6ccd36fc5b27ffcbee3ccffe9900b046c3219c0d
