@@ -4,6 +4,7 @@ packages:
   - AesonBson-0.4.0
   - csv-conduit-0.7.2.0
   - direct-daemonize-3.1
+  - graphula-2.0.0.2
   - HDBC-postgresql-2.4.0.0
   - HPDF-1.5.1
   - odd-jobs-0.2.2
@@ -42,7 +43,3 @@ packages:
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
     commit: caafdaf62918d3d41dc57f1b547507265e1ed002
-
-  # https://github.com/freckle/graphula/pull/51
-  - git: https://github.com/EdutainmentLIVE/graphula.git
-    commit: 6ccd36fc5b27ffcbee3ccffe9900b046c3219c0d
