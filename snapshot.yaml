@@ -4,6 +4,7 @@ packages:
   - AesonBson-0.4.0
   - csv-conduit-0.7.2.0
   - direct-daemonize-3.1
+  - generics-eot-0.4.0.1
   - graphula-2.0.0.2
   - HDBC-postgresql-2.4.0.0
   - HPDF-1.5.1
