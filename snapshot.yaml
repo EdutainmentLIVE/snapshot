@@ -1,4 +1,4 @@
-resolver: nightly-2021-01-05
+resolver: nightly-2021-01-11
 
 packages:
   - AesonBson-0.4.0
@@ -13,7 +13,7 @@ packages:
   - persistent-template-2.9.1.0
   - persistent-mongoDB-2.11.0.0
   - persistent-postgresql-2.11.0.0
-  - prolude-0.0.0.15
+  - prolude-0.0.0.16
   - servant-lucid-0.9.0.2
   - servant-static-th-0.2.4.0
   - timing-convenience-0.1
