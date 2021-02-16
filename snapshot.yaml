@@ -9,6 +9,7 @@ packages:
   - HDBC-postgresql-2.5.0.0
   - HPDF-1.5.1
   - odd-jobs-0.2.2
+  - patrol-0.0.1
   - persistent-2.11.0.2
   - persistent-template-2.9.1.0
   - persistent-mongoDB-2.11.0.0
