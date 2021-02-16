@@ -1,21 +1,23 @@
-resolver: nightly-2021-01-11
+resolver: nightly-2021-02-12
 
 packages:
   - AesonBson-0.4.0
   - csv-conduit-0.7.2.0
   - direct-daemonize-3.1
   - generics-eot-0.4.0.1
-  - graphula-2.0.0.2
-  - HDBC-postgresql-2.4.0.0
+  - graphula-2.0.0.3
+  - HDBC-postgresql-2.5.0.0
   - HPDF-1.5.1
   - odd-jobs-0.2.2
-  - persistent-2.11.0.1
+  - patrol-0.0.1
+  - persistent-2.11.0.2
   - persistent-template-2.9.1.0
   - persistent-mongoDB-2.11.0.0
-  - persistent-postgresql-2.11.0.0
+  - persistent-postgresql-2.11.0.1
   - prolude-0.0.0.17
   - servant-lucid-0.9.0.2
-  - servant-static-th-0.2.4.0
+  - servant-serf-0.1.0
+  - servant-static-th-1.0.0.0
   - timing-convenience-0.1
 
   # https://github.com/brendanhay/amazonka/pull/572
@@ -43,7 +45,3 @@ packages:
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
     commit: caafdaf62918d3d41dc57f1b547507265e1ed002
-    
-  # https://github.com/EdutainmentLIVE/servant-serf/pull/2
-  - git: https://github.com/EdutainmentLIVE/servant-serf
-    commit: 95ab42625a2b464bafc936c1b0f29b8578680e87
