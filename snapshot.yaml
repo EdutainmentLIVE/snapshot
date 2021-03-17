@@ -10,15 +10,20 @@ packages:
   - HPDF-1.5.1
   - odd-jobs-0.2.2
   - patrol-0.0.1
-  - persistent-2.11.0.2
-  - persistent-template-2.9.1.0
-  - persistent-mongoDB-2.11.0.0
-  - persistent-postgresql-2.11.0.1
   - prolude-0.0.0.17
   - servant-lucid-0.9.0.2
   - servant-serf-0.1.0
   - servant-static-th-1.0.0.0
   - timing-convenience-0.1
+
+  # https://github.com/yesodweb/persistent/pull/1209
+  - git: https://github.com/yesodweb/persistent
+    commit: ec5f9ff9373f511d520bc8dd33cfab09db50cab9
+    subdirs:
+     - persistent
+     - persistent-mongoDB
+     - persistent-postgresql
+     - persistent-template
 
   # https://github.com/brendanhay/amazonka/pull/572
   - git: https://github.com/brendanhay/amazonka
