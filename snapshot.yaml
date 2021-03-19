@@ -8,13 +8,12 @@ packages:
   - HPDF-1.5.1
   - odd-jobs-0.2.2
   - patrol-0.0.1
+  - persistent-mongoDB-2.11.0.0
   - prolude-0.0.0.17
   - servant-lucid-0.9.0.2
   - servant-serf-0.1.0
   - servant-static-th-1.0.0.0
   - timing-convenience-0.1
-  - persistent-2.12.0.0
-  - persistent-mongoDB-2.11.0.0
 
   # https://github.com/brendanhay/amazonka/pull/572
   - git: https://github.com/brendanhay/amazonka
