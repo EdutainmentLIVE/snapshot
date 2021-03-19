@@ -1,11 +1,9 @@
-resolver: nightly-2021-02-12
+resolver: nightly-2021-03-19
 
 packages:
   - AesonBson-0.4.0
   - csv-conduit-0.7.2.0
   - direct-daemonize-3.1
-  - generics-eot-0.4.0.1
-  - graphula-2.0.0.3
   - HDBC-postgresql-2.5.0.0
   - HPDF-1.5.1
   - odd-jobs-0.2.2
@@ -15,15 +13,6 @@ packages:
   - servant-serf-0.1.0
   - servant-static-th-1.0.0.0
   - timing-convenience-0.1
-
-  # https://github.com/yesodweb/persistent/pull/1209
-  - git: https://github.com/yesodweb/persistent
-    commit: ec5f9ff9373f511d520bc8dd33cfab09db50cab9
-    subdirs:
-     - persistent
-     - persistent-mongoDB
-     - persistent-postgresql
-     - persistent-template
 
   # https://github.com/brendanhay/amazonka/pull/572
   - git: https://github.com/brendanhay/amazonka
