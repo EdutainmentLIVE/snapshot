@@ -10,10 +10,10 @@ packages:
   - patrol-0.0.1
   - persistent-mongoDB-2.11.0.0
   - prolude-0.0.0.17
-  - servant-lucid-0.9.0.2
+  - servant-lucid-0.9.0.2 # required by odd-jobs
   - servant-serf-0.1.0
-  - servant-static-th-1.0.0.0
-  - timing-convenience-0.1
+  - servant-static-th-1.0.0.0 # required by odd-jobs
+  - timing-convenience-0.1 # required by odd-jobs
 
   # https://github.com/brendanhay/amazonka/pull/572
   - git: https://github.com/brendanhay/amazonka
