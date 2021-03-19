@@ -1,29 +1,18 @@
-resolver: nightly-2021-02-12
+resolver: nightly-2021-03-19
 
 packages:
   - AesonBson-0.4.0
-  - csv-conduit-0.7.2.0
   - direct-daemonize-3.1
-  - generics-eot-0.4.0.1
-  - graphula-2.0.0.3
   - HDBC-postgresql-2.5.0.0
   - HPDF-1.5.1
   - odd-jobs-0.2.2
   - patrol-0.0.1
+  - persistent-mongoDB-2.11.0.0
   - prolude-0.0.0.17
-  - servant-lucid-0.9.0.2
+  - servant-lucid-0.9.0.2 # required by odd-jobs
   - servant-serf-0.1.0
-  - servant-static-th-1.0.0.0
-  - timing-convenience-0.1
-
-  # https://github.com/yesodweb/persistent/pull/1209
-  - git: https://github.com/yesodweb/persistent
-    commit: ec5f9ff9373f511d520bc8dd33cfab09db50cab9
-    subdirs:
-     - persistent
-     - persistent-mongoDB
-     - persistent-postgresql
-     - persistent-template
+  - servant-static-th-1.0.0.0 # required by odd-jobs
+  - timing-convenience-0.1 # required by odd-jobs
 
   # https://github.com/brendanhay/amazonka/pull/572
   - git: https://github.com/brendanhay/amazonka
@@ -49,4 +38,4 @@ packages:
 
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
-    commit: caafdaf62918d3d41dc57f1b547507265e1ed002
+    commit: f8a846a4e558f7c357f6202c30b88983097cafe0
