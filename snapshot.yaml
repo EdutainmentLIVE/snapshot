@@ -13,6 +13,7 @@ packages:
   - servant-serf-0.1.0
   - servant-static-th-1.0.0.0 # required by odd-jobs
   - timing-convenience-0.1 # required by odd-jobs
+  - witch-0.1.1.0
 
   # https://github.com/brendanhay/amazonka/pull/572
   - git: https://github.com/brendanhay/amazonka
