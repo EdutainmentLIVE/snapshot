@@ -4,7 +4,7 @@ packages:
   - AesonBson-0.4.0
   - direct-daemonize-3.1
   - HDBC-postgresql-2.5.0.0
-  - HPDF-1.5.1
+  - HPDF-1.5.3
   - odd-jobs-0.2.2
   - patrol-0.0.1
   - persistent-mongoDB-2.11.0.0
