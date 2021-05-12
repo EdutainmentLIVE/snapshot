@@ -1,20 +1,20 @@
-resolver: nightly-2021-03-19
+resolver: nightly-2021-05-10
 
 packages:
   - AesonBson-0.4.0
   - direct-daemonize-3.1
   - HDBC-postgresql-2.5.0.0
-  - HPDF-1.5.1
+  - HPDF-1.5.3
   - odd-jobs-0.2.2
   - patrol-0.0.1
-  - persistent-mongoDB-2.11.0.0
+  - persistent-mongoDB-2.12.0.0
   - prolude-0.0.0.17
   - servant-lucid-0.9.0.2 # required by odd-jobs
   - servant-serf-0.1.0
   - servant-static-th-1.0.0.0 # required by odd-jobs
   - timing-convenience-0.1 # required by odd-jobs
   - tmp-postgres-1.34.1.0
-  - witch-0.1.1.0
+  - witch-0.3.0.0
 
   # https://github.com/brendanhay/amazonka/pull/572
   - git: https://github.com/brendanhay/amazonka
