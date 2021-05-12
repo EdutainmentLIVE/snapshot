@@ -1,4 +1,4 @@
-resolver: nightly-2021-03-19
+resolver: nightly-2021-05-10
 
 packages:
   - AesonBson-0.4.0
