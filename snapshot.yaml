@@ -14,7 +14,7 @@ packages:
   - servant-static-th-1.0.0.0 # required by odd-jobs
   - timing-convenience-0.1 # required by odd-jobs
   - tmp-postgres-1.34.1.0
-  - witch-0.1.1.0
+  - witch-0.3.0.0
 
   # https://github.com/brendanhay/amazonka/pull/572
   - git: https://github.com/brendanhay/amazonka
