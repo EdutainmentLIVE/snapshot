@@ -1,4 +1,4 @@
-resolver: nightly-2021-05-10
+resolver: nightly-2021-06-14
 
 packages:
   - AesonBson-0.4.0
@@ -13,7 +13,6 @@ packages:
   - servant-serf-0.1.0
   - servant-static-th-1.0.0.0 # required by odd-jobs
   - timing-convenience-0.1 # required by odd-jobs
-  - tmp-postgres-1.34.1.0
   - witch-0.3.0.0
 
   # https://github.com/brendanhay/amazonka/pull/572
