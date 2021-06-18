@@ -39,8 +39,8 @@ packages:
   - git: https://github.com/EdutainmentLIVE/recurly
     commit: 9c8badd97c662338ed6f1c201df329a3d9e5cd5a
 
-  # mongoDB 2.13.0.2 was not uploaded to hackage for whatever reason
-  - git: https://github.com/yesodweb/persistent
-    commit: 62596ba28dc3c9a069fa8677e597e4390333379c
+  # https://github.com/yesodweb/persistent/pull/1286
+  - git: https://github.com/aschmois/persistent/tree/fix-mongo
+    commit: ffafd7fb3266531ddc45024034096b266bcdebe7
     subdirs:
       - persistent-mongoDB
