@@ -1,4 +1,4 @@
-resolver: nightly-2021-05-10
+resolver: lts-18.0
 
 packages:
   - AesonBson-0.4.0
@@ -7,14 +7,11 @@ packages:
   - HPDF-1.5.3
   - odd-jobs-0.2.2
   - patrol-0.0.1
-  - persistent-mongoDB-2.11.0.0 # don't upgrade until we upgrade persistent
   - prolude-0.0.0.17
   - servant-lucid-0.9.0.2 # required by odd-jobs
   - servant-serf-0.1.0
   - servant-static-th-1.0.0.0 # required by odd-jobs
   - timing-convenience-0.1 # required by odd-jobs
-  - tmp-postgres-1.34.1.0
-  - witch-0.3.0.0
 
   # https://github.com/brendanhay/amazonka/pull/572
   - git: https://github.com/brendanhay/amazonka
@@ -41,3 +38,9 @@ packages:
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
     commit: 9c8badd97c662338ed6f1c201df329a3d9e5cd5a
+
+  # https://github.com/yesodweb/persistent/pull/1286
+  - git: https://github.com/aschmois/persistent
+    commit: ffafd7fb3266531ddc45024034096b266bcdebe7
+    subdirs:
+      - persistent-mongoDB
