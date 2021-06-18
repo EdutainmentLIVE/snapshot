@@ -40,7 +40,7 @@ packages:
     commit: 9c8badd97c662338ed6f1c201df329a3d9e5cd5a
 
   # https://github.com/yesodweb/persistent/pull/1286
-  - git: https://github.com/aschmois/persistent/tree/fix-mongo
+  - git: https://github.com/aschmois/persistent
     commit: ffafd7fb3266531ddc45024034096b266bcdebe7
     subdirs:
       - persistent-mongoDB
