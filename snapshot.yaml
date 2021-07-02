@@ -1,5 +1,7 @@
 resolver: nightly-2021-03-19
 
+name: smurf-snapshot
+
 packages:
   - AesonBson-0.4.0
   - direct-daemonize-3.1
