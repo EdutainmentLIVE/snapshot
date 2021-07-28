@@ -37,7 +37,7 @@ packages:
 
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
-    commit: 9c8badd97c662338ed6f1c201df329a3d9e5cd5a
+    commit: 030e5f04f0f849c89b094644f963cff00c576d21
 
   # https://github.com/yesodweb/persistent/pull/1286
   - git: https://github.com/aschmois/persistent
