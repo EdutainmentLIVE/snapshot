@@ -1,4 +1,4 @@
-resolver: lts-18.3
+resolver: lts-18.4
 
 packages:
   - AesonBson-0.4.0
@@ -37,7 +37,7 @@ packages:
 
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
-    commit: 030e5f04f0f849c89b094644f963cff00c576d21
+    commit: fa5a05ffc50273325599133804190c95ef856d97
 
   # https://github.com/yesodweb/persistent/pull/1286
   - git: https://github.com/aschmois/persistent
