@@ -42,6 +42,10 @@ packages:
   - git: https://github.com/EdutainmentLIVE/recurly
     commit: ff74acd801c99b3e6d64d343dd14e6dcf76cc5bc
 
+  # https://github.com/jfischoff/tmp-postgres/issues/251#issuecomment-920964277
+  - git: https://github.com/EdutainmentLIVE/tmp-postgres
+    commit: 3e3d0111cf3ab96e167d7b9559fef5812bbf96d2
+
 flags:
   hashable:
     random-initial-seed: true
