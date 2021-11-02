@@ -10,7 +10,7 @@ packages:
   - odd-jobs-0.2.2
   - patrol-0.0.1
   - persistent-mongoDB-2.13.0.0
-  - prolude-0.0.0.20
+  - prolude-0.0.0.21
   - servant-lucid-0.9.0.2 # required by odd-jobs
   - servant-serf-0.2.1
   - servant-static-th-1.0.0.0 # required by odd-jobs
