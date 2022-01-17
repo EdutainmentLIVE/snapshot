@@ -1,17 +1,17 @@
-resolver: lts-18.14
+resolver: lts-18.21
 
 packages:
   - AesonBson-0.4.0
   - direct-daemonize-3.1
   - evoke-0.2021.9.14
-  - hashable-1.3.3.0
+  - hashable-1.3.4.0
   - HDBC-postgresql-2.5.0.0
   - HPDF-1.5.3
   - odd-jobs-0.2.2
   - patrol-0.0.1
   - persistent-mongoDB-2.13.0.0
   - prolude-0.0.0.23
-  - servant-lucid-0.9.0.2 # required by odd-jobs
+  - servant-lucid-0.9.0.4 # required by odd-jobs
   - servant-serf-0.2.1
   - servant-static-th-1.0.0.0 # required by odd-jobs
   - timing-convenience-0.1 # required by odd-jobs
@@ -35,12 +35,14 @@ packages:
     commit: 8a2432891e96a547777b67a67135e235a1dce80c
 
   # https://github.com/haskell-servant/servant-swagger/pull/125
-  - git: https://github.com/haskell-servant/servant-swagger
-    commit: 1909e44e965dca24cb1f5cee4b08c0781dfdbff6
+  - git: https://github.com/haskell-servant/servant
+    commit: c388c5e82c3df5d8ae63b523fea012c23e37410a
+    subdirs:
+      - servant-swagger
 
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
-    commit: 30f02e92a299ef2b50893bcc585cfa60ab6aff98
+    commit: a048d8318b48e5f1189112a949ee222f8fc09b0a
 
   # https://github.com/jfischoff/tmp-postgres/issues/251#issuecomment-920964277
   - git: https://github.com/EdutainmentLIVE/tmp-postgres
