@@ -35,10 +35,8 @@ packages:
     commit: 8a2432891e96a547777b67a67135e235a1dce80c
 
   # https://github.com/haskell-servant/servant-swagger/pull/125
-  - git: https://github.com/haskell-servant/servant
-    commit: c388c5e82c3df5d8ae63b523fea012c23e37410a
-    subdirs:
-      - servant-swagger
+  - git: https://github.com/haskell-servant/servant-swagger
+    commit: 7ac475a40b4b95a50bc2094f9461c62bd7fbb1fd
 
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
