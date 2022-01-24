@@ -40,7 +40,7 @@ packages:
 
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
-    commit: a048d8318b48e5f1189112a949ee222f8fc09b0a
+    commit: 415d74f742e89f90534132c1349c97dde664aadc
 
   # https://github.com/jfischoff/tmp-postgres/issues/251#issuecomment-920964277
   - git: https://github.com/EdutainmentLIVE/tmp-postgres
