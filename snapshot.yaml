@@ -26,10 +26,6 @@ packages:
   - git: https://github.com/EdutainmentLIVE/base-noprelude
     commit: 1598e91d3edcc974be300501adaaa77b45c3ea88
 
-  # https://github.com/hdbc/convertible/pull/15
-  - git: https://github.com/codygman/convertible
-    commit: 9e4849e143458aa3175e71bc2a8a29502272eb88
-
   # https://github.com/haskell-servant/servant-swagger/pull/125
   - git: https://github.com/haskell-servant/servant-swagger
     commit: 7ac475a40b4b95a50bc2094f9461c62bd7fbb1fd
