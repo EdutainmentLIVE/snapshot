@@ -5,7 +5,6 @@ packages:
   - direct-daemonize-3.1
   - evoke-0.2021.9.14
   - hashable-1.3.4.0
-  - HDBC-postgresql-2.5.0.0
   - HPDF-1.5.3
   - odd-jobs-0.2.2
   - patrol-0.0.1
@@ -26,25 +25,13 @@ packages:
   - git: https://github.com/EdutainmentLIVE/base-noprelude
     commit: 1598e91d3edcc974be300501adaaa77b45c3ea88
 
-  # https://github.com/hdbc/convertible/pull/15
-  - git: https://github.com/codygman/convertible
-    commit: 9e4849e143458aa3175e71bc2a8a29502272eb88
-
-  # https://github.com/flipstone/orville/pull/55
-  - git: https://github.com/EdutainmentLIVE/orville
-    commit: 8a2432891e96a547777b67a67135e235a1dce80c
-
   # https://github.com/haskell-servant/servant-swagger/pull/125
   - git: https://github.com/haskell-servant/servant-swagger
     commit: 7ac475a40b4b95a50bc2094f9461c62bd7fbb1fd
 
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
-    commit: 415d74f742e89f90534132c1349c97dde664aadc
-
-  # https://github.com/jfischoff/tmp-postgres/issues/251#issuecomment-920964277
-  - git: https://github.com/EdutainmentLIVE/tmp-postgres
-    commit: 3e3d0111cf3ab96e167d7b9559fef5812bbf96d2
+    commit: cef77a4befd99680338990ba154e3876a1aa5c15
 
 flags:
   hashable:
