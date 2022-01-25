@@ -32,7 +32,7 @@ packages:
 
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
-    commit: 87abe8c8d1e759f809e42ad06ec1f100335ae6e4
+    commit: cef77a4befd99680338990ba154e3876a1aa5c15
 
   # https://github.com/jfischoff/tmp-postgres/issues/251#issuecomment-920964277
   - git: https://github.com/EdutainmentLIVE/tmp-postgres
