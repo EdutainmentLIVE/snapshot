@@ -30,17 +30,13 @@ packages:
   - git: https://github.com/codygman/convertible
     commit: 9e4849e143458aa3175e71bc2a8a29502272eb88
 
-  # https://github.com/flipstone/orville/pull/55
-  - git: https://github.com/EdutainmentLIVE/orville
-    commit: 8a2432891e96a547777b67a67135e235a1dce80c
-
   # https://github.com/haskell-servant/servant-swagger/pull/125
   - git: https://github.com/haskell-servant/servant-swagger
     commit: 7ac475a40b4b95a50bc2094f9461c62bd7fbb1fd
 
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
-    commit: 415d74f742e89f90534132c1349c97dde664aadc
+    commit: 87abe8c8d1e759f809e42ad06ec1f100335ae6e4
 
   # https://github.com/jfischoff/tmp-postgres/issues/251#issuecomment-920964277
   - git: https://github.com/EdutainmentLIVE/tmp-postgres
