@@ -31,7 +31,7 @@ packages:
 
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
-    commit: cef77a4befd99680338990ba154e3876a1aa5c15
+    commit: 8fee37d20b361d13828e632dfa48a89dab5fe912
 
 flags:
   hashable:
