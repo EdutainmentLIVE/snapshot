@@ -25,10 +25,6 @@ packages:
   - git: https://github.com/EdutainmentLIVE/base-noprelude
     commit: 1598e91d3edcc974be300501adaaa77b45c3ea88
 
-  # https://github.com/haskell-servant/servant-swagger/pull/125
-  - git: https://github.com/haskell-servant/servant-swagger
-    commit: 7ac475a40b4b95a50bc2094f9461c62bd7fbb1fd
-
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
     commit: 8fee37d20b361d13828e632dfa48a89dab5fe912
