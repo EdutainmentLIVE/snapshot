@@ -1,4 +1,4 @@
-resolver: lts-18.25
+resolver: lts-18.28
 
 packages:
   - AesonBson-0.4.0
@@ -8,13 +8,14 @@ packages:
   - HPDF-1.5.3
   - odd-jobs-0.2.2
   - patrol-0.0.1
-  - persistent-mongoDB-2.13.0.0
+  - persistent-mongoDB-2.13.0.1
   - prolude-0.0.0.23
-  - servant-lucid-0.9.0.4 # required by odd-jobs
+  - servant-0.19
+  - servant-lucid-0.9.0.5 # required by odd-jobs
   - servant-serf-0.3.0.1
+  - servant-server-0.19
   - servant-static-th-1.0.0.0 # required by odd-jobs
   - timing-convenience-0.1 # required by odd-jobs
-  - velma-0.2022.2.13
 
   # https://github.com/brendanhay/amazonka/pull/572
   - git: https://github.com/brendanhay/amazonka
@@ -25,10 +26,6 @@ packages:
   # hvr is mia, going to take over the repo directly from now on
   - git: https://github.com/EdutainmentLIVE/base-noprelude
     commit: 1598e91d3edcc974be300501adaaa77b45c3ea88
-
-  # https://github.com/haskell-servant/servant-swagger/pull/125
-  - git: https://github.com/haskell-servant/servant-swagger
-    commit: 7ac475a40b4b95a50bc2094f9461c62bd7fbb1fd
 
   # https://github.com/EdutainmentLIVE/recurly
   - git: https://github.com/EdutainmentLIVE/recurly
