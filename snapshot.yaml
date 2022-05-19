@@ -1,35 +1,59 @@
 resolver: lts-18.28
 
 packages:
-  - AesonBson-0.4.0
+  - aeson-2.0.3.0
+  - AesonBson-0.4.1
+  - attoparsec-0.14.4
+  - cryptostore-0.2.2.0
+  - daemons-0.3.0
   - direct-daemonize-3.1
-  - evoke-0.2022.5.2
-  - hashable-1.3.4.1
+  - hashable-1.3.5.0
   - HPDF-1.5.3
-  - odd-jobs-0.2.2
-  - patrol-0.0.1
+  - http-api-data-0.4.3
+  - jwt-0.11.0
+  - OneTuple-0.3.1
+  - patrol-0.0.2
   - persistent-mongoDB-2.13.0.1
-  - prolude-0.0.0.24
+  - prolude-0.0.0.25
+  - semialign-1.2.0.1
   - servant-0.19
   - servant-lucid-0.9.0.5 # required by odd-jobs
   - servant-serf-0.3.0.1
   - servant-server-0.19
   - servant-static-th-1.0.0.0 # required by odd-jobs
+  - swagger2-2.8.2
+  - text-short-0.1.5
+  - time-compat-1.9.6.1
   - timing-convenience-0.1 # required by odd-jobs
+  - xml-lens-0.3.1
 
-  # https://github.com/brendanhay/amazonka/pull/572
-  - git: https://github.com/brendanhay/amazonka
-    commit: 020bc7bde47bb235e448c76088dc44d6cec13e9b
+  # https://github.com/brendanhay/amazonka/releases/tag/2.0.0-rc1
+  - github: brendanhay/amazonka
+    commit: 0ccede621e56fb6f240e4850e205cde82d0e4a4b
     subdirs:
-      - amazonka
+      - lib/amazonka
+      - lib/amazonka-core
+      - lib/services/amazonka-cloudwatch
+      - lib/services/amazonka-s3
+      - lib/services/amazonka-sns
+      - lib/services/amazonka-sqs
+      - lib/services/amazonka-sts
 
   # hvr is mia, going to take over the repo directly from now on
-  - git: https://github.com/EdutainmentLIVE/base-noprelude
+  - github: EdutainmentLIVE/base-noprelude
     commit: 1598e91d3edcc974be300501adaaa77b45c3ea88
 
+  # https://github.com/tfausak/evoke/pull/4
+  - github: tfausak/evoke
+    commit: d9788e770151f7ba547d98903f0fca5c9c03d86f
+
+  # https://github.com/saurabhnanda/odd-jobs/pull/88
+  - github: tfausak/odd-jobs
+    commit: 4d7be2c1991d0c61b5a61a2e294f98880b1cea59
+
   # https://github.com/EdutainmentLIVE/recurly
-  - git: https://github.com/EdutainmentLIVE/recurly
-    commit: 8fee37d20b361d13828e632dfa48a89dab5fe912
+  - github: EdutainmentLIVE/recurly
+    commit: 5a4d5cb6d8914296fb486bdbad51ac9e1740803a
 
 flags:
   hashable:
