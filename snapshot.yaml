@@ -1,31 +1,15 @@
-resolver: lts-18.28
+resolver: lts-19.7
 
 packages:
-  - aeson-2.0.3.0
-  - AesonBson-0.4.1
-  - attoparsec-0.14.4
-  - cryptostore-0.2.2.0
-  - daemons-0.3.0
-  - direct-daemonize-3.1
-  - hashable-1.3.5.0
-  - HPDF-1.5.3
-  - http-api-data-0.4.3
-  - jwt-0.11.0
-  - OneTuple-0.3.1
-  - patrol-0.0.2
-  - persistent-mongoDB-2.13.0.1
-  - prolude-0.0.0.25
-  - semialign-1.2.0.1
-  - servant-0.19
-  - servant-lucid-0.9.0.5 # required by odd-jobs
-  - servant-serf-0.3.0.1
-  - servant-server-0.19
-  - servant-static-th-1.0.0.0 # required by odd-jobs
-  - swagger2-2.8.2
-  - text-short-0.1.5
-  - time-compat-1.9.6.1
-  - timing-convenience-0.1 # required by odd-jobs
-  - xml-lens-0.3.1
+  - daemons-0.3.0@sha256:356edaf06a8cf5e9f19685f9ce793ad6d2b6bce2e55379f6b2aff1b0c07a633f,3178
+  - direct-daemonize-3.1@sha256:f33505932b8613267cd8ad2d51470af2c5708d750ddf55a5dd38292f04962dcc,1630
+  - evoke-0.2022.5.19@sha256:20fb75e8d4887678710e57b9147bcfe163415df0ddcddafc97325f8358a2827d,1663
+  - haskell-stack-trace-plugin-0.1.3.0@sha256:b7f05707849dda721ed466df769ca9a3fb41de996c9cea1e568af85687489362,2121
+  - patrol-0.0.2@sha256:1cbdc27d47864bb1478ea3ca2507307c15447ed2038b37f44ada67b31e530a88,1705
+  - prolude-0.0.0.25@sha256:121e6f04b37b4fc2d1c275d0525ecef7f8d8451f03e49b9662ba648b9a99f94b,2280
+  - servant-serf-0.3.0.1@sha256:03796c63495b44b25befd02e2bd060932b972cb5b7c37b26415f5f17df6739d7,3881
+  - timing-convenience-0.1@sha256:7ff807a9a9e5596f2b18d45c5a01aefb91d4a98f6a1008d183b5c550f68f7cb7,2092
+  - xml-lens-0.3.1@sha256:96b81805d5a907c81ec586652aaf967df0923b70e32499ffb8c0938f0e34fc9a,1068
 
   # https://github.com/brendanhay/amazonka/releases/tag/2.0.0-rc1
   - github: brendanhay/amazonka
@@ -39,13 +23,9 @@ packages:
       - lib/services/amazonka-sqs
       - lib/services/amazonka-sts
 
-  # hvr is mia, going to take over the repo directly from now on
-  - github: EdutainmentLIVE/base-noprelude
-    commit: 1598e91d3edcc974be300501adaaa77b45c3ea88
-
-  # https://github.com/tfausak/evoke/pull/4
-  - github: tfausak/evoke
-    commit: d9788e770151f7ba547d98903f0fca5c9c03d86f
+  # https://github.com/haskell-hvr/base-noprelude/pull/18
+  - github: AlistairB/base-noprelude
+    commit: 879b5b75ef0a4d9f3d3036bc3d81d3432d9f3cf6
 
   # https://github.com/saurabhnanda/odd-jobs/pull/88
   - github: tfausak/odd-jobs
