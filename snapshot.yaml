@@ -28,6 +28,9 @@ packages:
   - github: AlistairB/base-noprelude
     commit: 879b5b75ef0a4d9f3d3036bc3d81d3432d9f3cf6
 
+  - github: tfausak/disable-warnings
+    commit: 02a836a10689791a2803bb08ea68eeec3251154f
+
   # https://github.com/saurabhnanda/odd-jobs/pull/88
   - github: tfausak/odd-jobs
     commit: 4d7be2c1991d0c61b5a61a2e294f98880b1cea59
