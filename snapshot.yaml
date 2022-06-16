@@ -20,6 +20,7 @@ packages:
       - lib/amazonka-core
       - lib/services/amazonka-cloudwatch
       - lib/services/amazonka-s3
+      - lib/services/amazonka-secretsmanager
       - lib/services/amazonka-sns
       - lib/services/amazonka-sqs
       - lib/services/amazonka-sts
