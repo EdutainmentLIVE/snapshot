@@ -36,10 +36,6 @@ packages:
   - github: tfausak/odd-jobs
     commit: 4d7be2c1991d0c61b5a61a2e294f98880b1cea59
 
-  # https://github.com/EdutainmentLIVE/recurly
-  - github: EdutainmentLIVE/recurly
-    commit: a1c1d35c4e715541236454efc3ce76ec40b6157f
-
 flags:
   hashable:
     random-initial-seed: true
